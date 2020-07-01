@@ -1,0 +1,66 @@
+@media (max-width: 1000px) {
+  .lesson-text {
+    display: block;
+  }
+
+  .lesson {
+    width: 50%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 40px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .lesson {
+    width: 100%;
+  }
+
+  .top-wrapper h1 {
+    font-size: 45px;
+    padding: 0;
+  }
+
+  .h1-container {
+    padding-bottom: 15px;
+  }
+
+  .top-wrapper p {
+    font-size: 16px;
+  }
+
+  .top-container {
+    text-align: left;
+    padding: 0 13px;
+  }
+
+  .btn {
+    width: 90%;
+  }
+
+  .facebook-btn {
+    margin-bottom: 10px;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .message-container {
+    padding: 0 10px;
+  }
+}
