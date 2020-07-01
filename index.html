@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Progate模写</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-logo">
+        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+      </div>
+      <span class="fa fa-bars menu-icon"></span>
+      <div class="header-list">
+          <a href="#">レッスン</a>
+          <a href="#" class="signup-show">新規登録</a>
+          <a href="#" class="login-btn">ログイン</a>
+      </div>
+    </div>
+  </header>
+  <div class="login-modal-wrapper" id="login-modal">
+    <div id="container">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-2x fa-times"></i>
+        </div>
+        <div id="login-form">
+          <h2>Emailログイン</h2>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="メールアドレス">
+            <input class="form-control" type="password" placeholder="パスワード">
+            <div id="submit-btn">ログイン</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="signup-modal-wrapper" id="signup-modal">
+    <div class="modal">
+      <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+      <div id="signup-form">
+        <h2>Emailで新規登録</h2>
+        <form action="#">
+          <input class="form-control" type="text" placeholder="メールアドレス">
+          <input class="form-control" type="password" placeholder="パスワード">
+          <div id="submit-btn">新規登録</div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="top-wrapper">
+    <div class="container">
+      <div class="top-container">
+        <div class="h1-container">
+          <h1>LEARN TO CODE.</h1>
+          <h1>LEARN TO BE CREATIVE.</h1>
+        </div>
+        <p class="p1">Progateはオンラインプログラミング学習サービスです。</p>
+        <p>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
+      </div>
+      <div class="btn-wrapper">
+        <a href="#" class="btn signup-btn signup-show">新規登録はこちら</a>
+        <p>or</p>
+        <a href="#" class="btn facebook-btn"><span class="fab fa-facebook-f faicon"></span>Facebookで登録</a>
+        <a href="#" class="btn twitter-btn"><span class="fab fa-twitter faicon"></span>Twitterで登録</a>
+      </div>
+    </div>
+  </div>
+  <div class="lesson-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Learn Where to Get Started!</h2>
+      </div>
+      <div class="lessons">
+        <div class="lesson lesson-hover">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/html.png">
+            <p class="icon-title">HTML & CSS</p>
+          </div>
+          <div class="lesson-text">
+            <p>
+              ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。
+            </p>
+          </div>
+        </div>
+        <div class="lesson lesson-hover">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+            <p class="icon-title">jQuery</p>
+          </div>
+          <div class="lesson-text">
+            <p>
+              素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。
+            </p>
+          </div>
+        </div>
+        <div class="lesson lesson-hover">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/ruby.png">
+            <p class="icon-title">Ruby</p>
+          </div>
+          <div class="lesson-text">
+            <p>
+              オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。
+            </p>
+          </div>
+        </div>
+        <div class="lesson lesson-hover">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/php.png">
+            <p class="icon-title">PHP</p>
+          </div>
+          <div class="lesson-text">
+            <p>
+              HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。
+            </p>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <div class="message-wrapper">
+    <div class="container message-container">
+      <h1>さぁ、あなたもProgateでプログラミングを学んでみませんか？</h1>
+      <h2>Let's learn to code, learn to be creative!</h2>
+      <div class="btn signup-btn signup-btn2 signup-show">さっそく開発する</div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+      <p>Learn to code, learn to be creative.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
